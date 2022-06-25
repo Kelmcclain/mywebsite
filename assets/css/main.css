@@ -2947,8 +2947,8 @@ table.alt tbody tr td {
 }
 
 .pagination a:hover {
-    color: #18bfef !important;
-    border-color: #18bfef;
+    color: #b218ef !important;
+    border-color: #b218ef;
     z-index: 1;
 }
 
@@ -4344,7 +4344,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
     border: 0;
     color: #909498;
     cursor: pointer;
-    display: block;
+    /* display: block;*/
     height: 3.25rem;
     line-height: 3.25rem;
     padding-right: 1.25rem;
