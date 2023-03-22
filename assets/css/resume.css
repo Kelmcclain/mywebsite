@@ -87,11 +87,20 @@
     padding: 0 20px 5px 20px;
 }
 
+
 .icons{
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+.icons a{
     text-decoration: none;
     font-size: 20px;
-    color: aquamarine;
+    color: #0abde3;
     padding: 0 14px;
+    transition-duration: 0.4s;
+    transition-property: transform;
 }
 
 .icons a:hover{
