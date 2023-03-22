@@ -4,12 +4,10 @@
 
 
 .resume-main {
-    margin: 0;
-    padding: 0;
     height: 100vh;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     background: #eeeeee;
 
@@ -18,7 +16,7 @@
 .resume-column {
     padding: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -27,8 +25,7 @@
     position: relative;
     margin: 0 auto;
     width: calc(100% - 1rem);
-    max-width: 72rem;
-    z-index: 2;
+    z-index: 1;
 }
 
 #resume>* {
@@ -40,6 +37,7 @@
 .card{
     font-family: "Candara", sans-serif;
     width: 340px;
+    height: 800px;
     overflow: hidden;
     background: #ffffff;
     border-radius: 10px;
@@ -67,7 +65,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 100px;
-    border: 10px solid #ffffff;
+    border: 5px solid #ffffff;
     transition-duration: 0.4s;
     transition-property: all;
 }
