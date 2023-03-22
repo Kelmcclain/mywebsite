@@ -130,6 +130,15 @@
     padding: 20px 20px 5px 20px;
 }
 
+.content-block h4{
+    font-size: 25;
+    font-family: "Ubuntu";
+    color: #04657a;
+    text-align: left;
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+}
+
 .content-block p{
     word-spacing: normal;
     font-family: "Ubuntu";
@@ -137,5 +146,5 @@
     line-height:normal;
     font-size: 14px;
     text-align: justify;
-    padding: 0 50px 100px 50px;
+    padding: 0 0px 30px 50px;
 }
