@@ -3,16 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
-.resume-div {
-    padding: 4rem, 2rem, 4rem, 2rem;
+.resume-main {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    background: #eeeeee;
 
 }
 
-.resume-content {
+.resume-column {
     padding: auto;
     display: flex;
     flex-direction: column;
@@ -23,35 +26,75 @@
     background-color: #ffffff;
     position: relative;
     margin: 0 auto;
-    width: calc(100% - 4rem);
+    width: calc(100% - 1rem);
     max-width: 72rem;
     z-index: 2;
 }
 
 #resume>* {
-    padding: 4rem 4rem 2rem 4rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-top: solid 2px #eeeeee;
     margin: 0;
 }
 
-.my-div {
-    border-left: 2px solid black;
-    height: 100px;
+.card{
+    font-family: "Candara", sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
 }
 
-.profile-picture {
-    width: 150px;
-    height: 150px;
-    max-width: 150px;
-    background-image: url('https://lh3.googleusercontent.com/caiFpIuMKTkp7NvsfDYx1I4FoCyahBc07HWWfY5hlmhy66SNDBjm8UUSMkKetZo3j-KiM1WPiPhG_QDgmdNot5e2uuaW1pFOxONQxVg_ITBEw4oNONY_dRoJb26fx0vsOD4UGyhZzorTMBZ_ounMRJs92F5jTrTF2QoSTwLTevcwqRKotfLeP8MhaqzkumZMPFJ_5sl16KLGEJHn1etdgOR9hKZx39fTSSsQQYD3Rz-GWyZIEExURKSF76d9bg1s24cdmzYKSGccxDNnDsGBytsgJo-u2C4Z-uimp4rqjsiR1EB06q06qWqo6eEAvACRGIA-wcP3lTuQId2aZW9ROJiZz8gY6LxtOFCUJ2fb8Hi2vARP95gJ0k29pDtJ5BO7GceNBANA5aQ4Zc38lROcUSq1ic0zfK9OURzD-FDOY6dCJ0qYGB24iBin6pj7sOEUFx6spfdBNz5O-lK4sJGq0hqPP7CwyeKWRKdS0wnUzWp1g4XYVP3I_okQDJA85T1znzKGsKIQwuMtSU3o5DB6s9uuhGdIBSvmzTnIKIiChWu9MowIrj4W5vMg3VQfo14BCzOkBoy_8JTMkEdiQsIZqveNo0SRO9iQV_nR50H1UEh-SM7_pbUUgtuqjoeTjdxqM9Ikf04956QM7QGSQ_TdHhAb1igr__FI1QRMsmknYocd-6NOmpGsbL27C7tMF0vTmjeIE07adDJYXmT9PKyA0LMxeELlTgueR9GYV5FgnN_1BePM46nFjrGyEmyQW2JA-_A9TPjaGpSFpA-ql8aiRxnK0GkwPpZjfRkVctDFxnqvby0XcrK1rzDsJLVaoOuqN1nVztqtYdRjfe0RwT9c55exq48xoaMuufkKNAmVwNNcjK3qN03EtLA2i28RPfXq9m1kFFrB2O_l_OfLFO_220jn3qn5M_92azEclNdvYFZ46UPecTRhzELgbW1b8gI_LYnXo1oB6IzodKOzwSl8_w7SvX1mitVDeGL8J6l-98j7fcEmhhHI6U3QUjM5XyGgpG56mRc4wSXzRupWButJsqMExDY2Yc8-BuF572af8Z74L7p0j-M71j6LXyIQbA=w640-h639-s-no?authuser=0');
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
+.card-image img{
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
-@media (min-width: 768px) {
-    .profile-pic {
-        width: calc(33.33% - 1rem);
-        max-width: none;
-    }
+.profile-image img{
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 10px solid #ffffff;
+    transition-duration: 0.4s;
+    transition-property: transform;
+}
+
+.profile-image image:hover{
+    transform: scale(1.1);
+}
+
+.card-content h3{
+    font-size: 25;
+    text-align: center;
+    margin: 0;
+}
+
+.card-content p{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+}
+
+.icons{
+    text-decoration: none;
+    font-size: 20px;
+    color: aquamarine;
+    padding: 0 14px;
+}
+
+.icons a:hover{
+    color: #000;
+    transform: scale(1.5);
 }
