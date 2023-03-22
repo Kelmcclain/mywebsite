@@ -266,6 +266,7 @@ i {
 p {
     text-align: justify;
     margin: 0 0 2rem 0;
+    font-family: "Ubuntu";
 }
 
 h1,
@@ -2667,7 +2668,7 @@ header>.date {
 }
 
 header>p {
-    font-style: italic;
+    font-style: bold;
 }
 
 header>h1+p {
@@ -3050,10 +3051,10 @@ body.is-preload #wrapper.fade-in:before {
     -webkit-justify-content: -webkit-flex-end;
     -ms-justify-content: -ms-flex-end;
     justify-content: flex-end;
-    -moz-transition: opacity 1s ease, -moz-transform 1s ease;
-    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-    -ms-transition: opacity 1s ease, -ms-transform 1s ease;
-    transition: opacity 1s ease, transform 1s ease;
+    -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
+    -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+    -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+    transition: opacity 0.5s ease, transform 0.5s ease;
     position: relative;
     cursor: default;
     text-align: center;
@@ -3142,7 +3143,7 @@ body.is-preload #wrapper.fade-in:before {
 }
 
 #intro h1 {
-    font-size: 5rem;
+    font-size: 2rem;
     line-height: 1;
 }
 
@@ -3224,7 +3225,7 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
         min-height: 80vh;
     }
     #intro h1 {
-        font-size: 3.25rem;
+        font-size: 2.5rem;
         line-height: 1.1;
         margin-bottom: 1rem;
     }
