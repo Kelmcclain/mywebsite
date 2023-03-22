@@ -75,13 +75,13 @@
 }
 
 .card-content h3{
-    font-size: 25;
+    font-size: 25px;
     text-align: center;
     margin: 0;
 }
 
 .card-content p{
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     padding: 0 20px 5px 20px;
 }
@@ -112,7 +112,7 @@
 /* Content block in resume*/
 .content-block{
     font-family: "Candara", sans-serif;
-    width: 700px;
+    width: 600px;
     height: 1000px;
     overflow: hidden;
     background: #ffffff;
@@ -123,7 +123,7 @@
 }
 
 .content-block h3{
-    font-size: 25;
+    font-size: 18px;
     color: #0abde3;
     text-align: center;
     margin: 0;
@@ -131,7 +131,7 @@
 }
 
 .content-block h4{
-    font-size: 25;
+    font-size: 13px;
     font-family: "Ubuntu";
     color: #04657a;
     text-align: left;
@@ -140,6 +140,16 @@
 }
 
 .content-block p{
+    word-spacing: normal;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    line-height:normal;
+    font-size: 14px;
+    text-align: justify;
+    padding: 0 50px 5px 50px;
+}
+
+.content-block ul{
     word-spacing: normal;
     font-family: "Ubuntu";
     font-weight: 400;
