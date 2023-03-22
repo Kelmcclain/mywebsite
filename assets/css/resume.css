@@ -66,11 +66,10 @@
     margin-right: auto;
     border-radius: 100px;
     border: 5px solid #ffffff;
-    transition-duration: 0.4s;
-    transition-property: all;
+    transition: transform 0.5s ease;
 }
 
-.profile-image image:hover{
+.profile-image img:hover{
     transform: scale(1.1);
 }
 
@@ -87,22 +86,22 @@
 }
 
 
-.icons{
+.resume-icons{
+    text-decoration: none;
     text-align: center;
     padding: 5px;
     padding-bottom: 30px;
+
 }
 
-.icons a{
-    text-decoration: none;
+.resume-icons a{
     font-size: 20px;
     color: #0abde3;
     padding: 0 14px;
-    transition-duration: 0.4s;
-    transition-property: transform;
+    transition: transform 0.6s ease;
 }
 
-.icons a:hover{
+.resume-icons a:hover{
     color: #000;
     transform: scale(1.5);
 }
