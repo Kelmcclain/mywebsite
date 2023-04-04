@@ -2973,8 +2973,7 @@ table.alt tbody tr td {
     -ms-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
     position: relative;
-    z-index: 1;
-    overflow: hidden;
+    z-index: 1;    
 }
 
 #wrapper>.bg {
@@ -3035,31 +3034,16 @@ body.is-preload #wrapper.fade-in:before {
 #intro {
     color: #ffffff;
     padding: 8rem 4rem 6rem 4rem;
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
     align-items: center;
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
     display: flex;
-    -moz-flex-direction: column;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -moz-justify-content: -moz-flex-end;
-    -webkit-justify-content: -webkit-flex-end;
-    -ms-justify-content: -ms-flex-end;
-    justify-content: flex-end;
-    -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
-    -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
-    -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease;
+    justify-content: center;    
     transition: opacity 0.5s ease, transform 0.5s ease;
     position: relative;
     cursor: default;
     text-align: center;
     z-index: 1;
-    min-height: 100vh;
+    min-height: 110vh;
 }
 
 #intro input,
